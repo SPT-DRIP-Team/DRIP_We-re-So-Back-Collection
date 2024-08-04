@@ -1,0 +1,19 @@
+{
+    // This will get injected into all of the locales as the item name.
+    "name": "Spiritus Systems Bank Robber chest rig (Coyote)",
+	"type": "RETEXTURE",
+    "shortName": "Bank Robber",
+    "description": "An ultra-compact and lightweight chest rig for mobility and comfort. Manufactured by Spiritus Systems. Coyote version.",
+
+    "baseItemID": "5e4abc1f86f774069619fbaa",
+    "traderId": "georgia",
+    "bundlePath": "GEAR.bundle",
+    "gearDependencies": [
+        "shaders",
+        "cubemaps",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+    ],
+    "copyAssort": true,
+    "addToBots": true,
+    "weightingMult": 1.0,
+}

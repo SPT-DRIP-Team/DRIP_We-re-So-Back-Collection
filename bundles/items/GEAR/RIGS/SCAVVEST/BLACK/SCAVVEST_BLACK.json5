@@ -1,0 +1,19 @@
+{
+    // This will get injected into all of the locales as the item name.
+    "name": "Scav Vest (Black)",
+	"type": "RETEXTURE",
+    "shortName": "Scav Vest",
+    "description": "A fishermans vest can more or less replace the chest rig, if the need is pressing enough. Black version.",
+
+    "baseItemID": "572b7adb24597762ae139821",
+    "traderId": "moron",
+    "bundlePath": "GEAR.bundle",
+    "gearDependencies": [
+        "shaders",
+        "cubemaps",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+    ],
+    "copyAssort": true,
+    "addToBots": true,
+    "weightingMult": 1.0,
+}

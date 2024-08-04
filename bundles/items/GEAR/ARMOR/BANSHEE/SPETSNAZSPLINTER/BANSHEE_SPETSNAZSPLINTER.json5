@@ -1,0 +1,74 @@
+{
+    // This will get injected into all of the locales as the item name.
+    "name": "Shellback Tactical Banshee armor (Spetsnaz Woodland Splinter)",
+	"type": "CUSTOM",
+    "shortName": "Banshee",
+    "description": "The Banshee Rifle Plate Carrier was designed to meet and exceed the needs of law enforcement, military, and tactical operators. This ultra lightweight, low profile, high-quality plate carrier has great load carrying capacity. Ideal for law enforcement patrol officers for use in high threat active shooter situations, multi-assault counter terrorism action capabilities (MACTAC) and counter terrorism direct actions.",
+
+    "baseItemID": "609e8540d5c319764c2bc2e9",
+    "traderId": "moron",
+    "bundlePath": "GEAR.bundle",
+    "gearDependencies": [
+        "shaders",
+        "cubemaps",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+    ],
+    "addToBots": true,
+    "weightingMult": 1.0,
+	
+	// custom item, should not copy existing assort
+	"copyAssort": false,
+	
+	// custom trader assort params since we cant copy existing ones
+	"loyaltyLevel": 2,
+	"price": {
+		"currency": "RUB",
+		"amount": 58000,
+	},
+
+	"childAssorts": {
+		"Front_plate": "656fad8c498d1b7e3e071da0",
+        "Back_plate": "656fad8c498d1b7e3e071da0",
+        "Soft_armor_back": "6572e52f73c0eabb700109a0",
+        "Soft_armor_front": "6572e5221b5bc1185508c24f",
+		"Soft_armor_left": "6572e53c73c0eabb700109a4",
+		"Soft_armor_right": "6572e54873c0eabb700109a8"
+    },
+	
+	// Custom properties like stats and prices
+	"customProperties":{
+		"props": {
+			// copy specific props (stats) from already existing item
+			"copyPropsFrom": {
+				// banshee rig
+				"639343fce101f4caa40a4ef3": [
+					"ArmorMaterial", 
+					"ArmorType", 
+					"BluntThroughput", 
+					"Durability", 
+					"MaxDurability", 
+					"RepairCost", 
+					"RepairSpeed", 
+					"armorClass", 
+					"armorZone"
+				],
+			},
+			
+			// overwrite props (stats)
+			"changeProps": {
+				"Width": 3,
+				"Height": 3,
+				"Weight": 6,
+				"mousePenalty": -1,
+				"speedPenaltyPercent": -2,
+				"weaponErgonomicPenalty": -2,
+			},
+		},
+		
+		// custom handbook and flea price, not related to trader assort price
+		"price": {
+			"handbook": 58000,
+			"flea": 58000,
+		},
+	},
+}
