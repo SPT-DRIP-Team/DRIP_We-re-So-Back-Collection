@@ -1,0 +1,38 @@
+{
+    // This will get injected into all of the locales as the item name.
+    "name": "Ghost Marksman - ARMA 2 \"ChDKZ Woodland\"",
+    "type": "TOP",
+
+    // "outfitId": "is auto calculated from the file name",
+    // "handsBaseId": "will default to 5d1f5b5386f7744bcc048757",
+    "traderId": "moron",
+
+    "topBundlePath": "TOP.bundle",
+    "topDependencies": [
+        "shaders",
+        "cubemaps",
+        "assets/content/characters/character/skeleton.bundle"
+    ],
+    "handsBundlePath": "HANDS.bundle",
+    "handsDependencies": [
+		"assets/content/hands/bear/bear_hands_watch_texture.bundles",
+		"assets/content/hands/bear/bear_watch.bundle",
+		"cubemaps",
+		"shaders"
+    ],
+
+    // RUB, EUR, and USD are acceptable values here, and will be translated
+    // to their internal BSG IDs before being passed to JustNU Core.
+    "currency": "RUB",
+
+    // Other properties are exactly as specified in JustNU Core, and will
+    // just be filled in as given here.
+    "loyaltyLevel": 2,
+    "profileLevel": 25,
+    "standing": 0,
+    "price": 125000,
+    "tags": {
+        "woodland": 1,
+        "chdkzwoodland": 1
+    }
+}

@@ -1,0 +1,37 @@
+{
+    // This will get injected into all of the locales as the item name.
+    "name": "Winter Jacket - Sans",
+    "type": "TOP",
+
+    // "outfitId": "is auto calculated from the file name",
+    // "handsBaseId": "will default to 5d1f5b5386f7744bcc048757",
+    "traderId": "georgia",
+
+    "topBundlePath": "TOP.bundle",
+    "topDependencies": [
+        "shaders",
+        "cubemaps",
+        "assets/content/characters/character/skeleton.bundle"
+    ],
+    "handsBundlePath": "HANDS.bundle",
+    "handsDependencies": [
+		"cubemaps",
+		"shaders"
+    ],
+	
+    // RUB, EUR, and USD are acceptable values here, and will be translated
+    // to their internal BSG IDs before being passed to JustNU Core.
+    "currency": "RUB",
+
+    // Other properties are exactly as specified in JustNU Core, and will
+    // just be filled in as given here.
+    "loyaltyLevel": 2,
+    "profileLevel": 26,
+    "standing": 0,
+    "price": 80085,
+    "tags": {
+        "civilian": 1,
+        "joke": 1,
+        "naval": 1
+    }
+}
